@@ -7,7 +7,7 @@ HeadNode:
   Networking:
     SubnetId: <your subnet ID here> 
   Ssh:
-    KeyName: epic_workshop 
+    KeyName: <your SSH key name> 
   LocalStorage:
     RootVolume:
       Size: 500
