@@ -113,6 +113,12 @@ cd /home/ubuntu
 mkdir LandDAtutorial 
 cd LandDAtutorial
 wget https://noaa-ufs-land-da-pds.s3.amazonaws.com/current_land_da_release_data/v3.0.0/ubuntu22.04-intel-landda-release-public-v3.0.0.img
+
+### Download LandDA Input data and extract the compressed data
+
+cd /home/ubuntu
+mkdir misc
+cd misc
 wget https://noaa-ufs-land-da-pds.s3.amazonaws.com/current_land_da_release_data/v3.0.0/LandDAInputDatav3.0.0.tar.gz
 tar -vxzf LandDAInputDatav3.0.0.tar.gz
 
