@@ -9,12 +9,15 @@ _**build-utility.sh**_
 Once users are connected to the Utility host, run the utility build script
 
 Copy the Utility build script as follows
+
 `wget https://github.com/NOAA-EPIC/aws-landda-tutorial/blob/main/build-utility.sh`
 
 Run "build-utility.sh" as follows to install git and hashicorp utility packer 
+
 `./build-utility.sh`
 
 Clone the **aws-landda-tutorial** repo to copy the build script required to create the Land DA AWS Parallel Cluster
+
 `git clone https://github.com/NOAA-EPIC/aws-landda-tutorial.git`
 
 _**build_da_cluster.pkr.hcl**_  
@@ -35,4 +38,5 @@ Ubuntu 22.04:  The operating system installed
 Other relevant information can be found in _da_hpc.yaml_.
 
 Run the following command to create the initial cluster
+
 `Pcluster create-cluster –region us-east-1 –cluster-name landda-tutorial-cluster --cluster-configuration da_hpc.yaml`
