@@ -1,4 +1,5 @@
-**UFS Land Data Assimilation System v3.0 Container based AWS Parallel Cluster Build Scripts**
+# UFS Land Data Assimilation System v3.0 Container based AWS Parallel Cluster Build Scripts
+
 The Unified Forecast System (UFS) is a community-based, coupled, comprehensive Earth modeling system. It is designed to be the source system for NOAA's operational numerical weather prediction applications while enabling research, development, and contribution opportunities for the broader Weather Enterprise. For more information about the UFS, visit the UFS Portal at https://ufs.epic.noaa.gov/.
 
 This repository includes the build scripts to create AWS Parallel Cluster for Land DA v3 container 
