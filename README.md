@@ -2,7 +2,8 @@
 
 The Unified Forecast System (UFS) is a community-based, coupled, comprehensive Earth modeling system. It is designed to be the source system for NOAA's operational numerical weather prediction applications while enabling research, development, and contribution opportunities for the broader Weather Enterprise. For more information about the UFS, visit the UFS Portal at https://ufs.epic.noaa.gov/.
 
-This repository includes the build scripts to create AWS Parallel Cluster for Land DA v3 container 
+This repository includes the build scripts to create AWS Parallel Cluster for Land DA v3 container. See this https://github.com/NOAA-EPIC/aws-landda-tutorial/blob/main/AWS_Create_UtilityHost_ParallelCluster_Instructions.pdf for a detailed step-by-step guide. 
+
 The following files were used to build that infrastructure and can be used as reference if any of text below is missing crucial information: _build_da_cluster.pkr.hcl_, _da-cluster-start-script.sh_, and _da_hpc.yaml_. 
 
 _**build-utility.sh**_
