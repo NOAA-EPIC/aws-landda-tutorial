@@ -31,7 +31,7 @@ Update _build_da_cluster.pkr.hcl_ and run it as follows
 _**da-cluster-start-script.sh**_  
 This is a startup script for an AWS EC2 instance for Land DA. It sets up the environment for running Land DA workflows, loads required modules, prepares directories, and configures the cluster node
 
-_**da_hpc.yaml** _
+_**da_hpc.yaml**_
 This file is an AWS ParallelCluster configuration file that tells the AWS Parallel cluster how to create to deploy a HPC cluster. It defines the cluster type, instructs to use the AMI built earlier using build_da_cluster.pkr.hcl, scheduler, node config etc.
 Head node (c7i.2xlarge): This is the controller or login node for the cluster; SSH into it, submit jobs, manage files, and monitor the cluster; can not run computationally heavy Land DA experiments
 Compute nodes (c7i.24xlarge): These nodes actually run the Land DA system
